@@ -1,0 +1,20 @@
+print("welcome to sec3ndz script, be patient while we load")
+import sleep ; time.sleep(3)
+print(" ")
+i = 1
+while i <=6:
+  print(i)
+  i = i + 1
+  
+words = raw_input("Enter some text to translate to pig latin: ")
+print "You entered: ", words
+
+words = words.split(' ')
+
+for i in words:
+  if len(i) >=3: 
+  i=i + "%say" % (i[0])
+  i=i [1:]
+  print i
+  else:
+    pass
