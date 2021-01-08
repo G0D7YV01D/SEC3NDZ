@@ -1,4 +1,4 @@
-@echo off
+
 mode con lines=30 cols=70
 color 02
 cls
