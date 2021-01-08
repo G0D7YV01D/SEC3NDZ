@@ -11,10 +11,18 @@ print "You entered: ", words
 
 words = words.split(' ')
 
-for i in words:
-  if len(i) >=3: 
-  i=i + "%say" % (i[0])
-  i=i [1:]
-  print i
-  else:
-    pass
+def add(a, b):
+    sum = a + b
+    return sum
+
+def sub(a, b):
+    diff = a - b
+    return diff
+
+def mul(a, b):
+    multi = a*b
+    return multi
+
+def div(a, b):
+    divi = a/b
+    return divi
